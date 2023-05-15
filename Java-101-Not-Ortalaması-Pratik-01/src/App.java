@@ -8,7 +8,7 @@ public class App {
         int mat, fiz, kimya, türkçe, tarih, müzik, toplam;
         String durum;
         Scanner input = new Scanner(System.in);
-        System.out.print("Notlarınızı girin");
+        System.out.print("Notlarınızı girin: ");
         mat = input.nextInt();
         fiz = input.nextInt();
         kimya = input.nextInt();
